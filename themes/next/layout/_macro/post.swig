@@ -273,7 +273,11 @@
       {%- for inject_item in theme.injects.postBodyEnd %}
         {{ partial(inject_item.layout, inject_item.locals, inject_item.options) }}
       {%- endfor %}
-
+      <div>
+        {% if not is_index %}
+          {% include 'my-copyright.swig' %}
+        {% endif %}
+      </div>
       {%- if theme.wechat_subscriber.enable %}
         {{ partial('../_partials/post/wechat-subscriber.swig', {}, {cache: theme.cache.enable}) }}
       {%- endif %}
