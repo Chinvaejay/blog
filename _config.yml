@@ -79,9 +79,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: <repository url> #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [master] #published
-  message: [message]
+  repo: git@github.com:Chinvaejay/Chinvaejay.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master #published
+  message: message
 
 search:
   path: search.xml
