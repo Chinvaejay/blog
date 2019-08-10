@@ -4,16 +4,16 @@
 
 # Site
 title: Hexo
-subtitle:
-description:
-keywords:
+subtitle: qinweijie.fun
+description: 秦伟杰,秦伟杰的博客,博客,前端,大前端,学习,github,vue,react,angular,angularjs,html,css,h5,JavaScript,js,lol
+keywords: 秦伟杰,秦伟杰的博客,博客,前端,大前端,学习,github,vue,react,angular,angularjs,html,css,h5,JavaScript,js,lol,王者荣耀,吃鸡
 author: 秦伟杰
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://qinweijie.fun
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
