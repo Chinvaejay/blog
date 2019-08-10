@@ -23,13 +23,15 @@
 
     a {
       the-transition();
-      border-bottom-color: $toc-link-border-color;
-      color: $toc-link-color;
+      // border-bottom-color: $toc-link-border-color;
+      // color: $toc-link-color;
+      color: #08aef9;
       transition-property: all;
 
       &:hover {
         border-bottom-color: $toc-link-hover-border-color;
-        color: $toc-link-hover-color;
+        // color: $toc-link-hover-color;
+        color: #333;
       }
     }
   }
@@ -64,16 +66,19 @@
     }
 
     .active > a {
-      border-bottom-color: $toc-link-active-border-color;
+      // border-bottom-color: $toc-link-active-border-color;
       // color: $toc-link-active-color;
-      color: #0d0ede;
+      color: #833bea;
     }
 
     .active-current > a {
-      color: $toc-link-active-current-color;
+      // color: $toc-link-active-current-color;
+      border-bottom-color: $toc-link-hover-border-color;
+      color: #444;
 
       &:hover {
-        color: $toc-link-active-current-border-color;
+        // color: $toc-link-active-current-border-color;
+        color: #08aef9;
       }
     }
   }
