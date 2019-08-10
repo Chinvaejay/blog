@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 秦伟杰的博客
 subtitle: qinweijie.fun
-description: 秦伟杰,秦伟杰的博客,博客,前端,大前端,学习,github,vue,react,angular,angularjs,html,css,h5,JavaScript,js,lol
+description: 前端工程师
 keywords: 秦伟杰,秦伟杰的博客,博客,前端,大前端,学习,github,vue,react,angular,angularjs,html,css,h5,JavaScript,js,lol,王者荣耀,吃鸡
 author: 秦伟杰
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -88,3 +88,33 @@ search:
   field: post
   format: html
   limit: 10000
+
+# Live2D
+## https://github.com/xiazeyu/live2d-widget.js
+## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init
+live2d:
+  model:
+    scale: 1
+    opacity: .8
+    hHeadPos: 0.5
+    vHeadPos: 0.618
+    use: live2d-widget-model-hijiki
+  display:
+    superSample: 2
+    width: 240
+    height: 400
+    position: left
+    hOffset: 20
+    vOffset: 50
+  mobile:
+    show: false
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
